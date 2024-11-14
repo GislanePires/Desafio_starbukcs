@@ -8,4 +8,12 @@ export const Button = styled.button`
   border: none;
   color: rgb(255, 255, 255, 1);
   font-size: 1.1rem;
+  transition: all 0.8s ease;
+
+  &:hover {
+    cursor: pointer;
+    background-color: var(--color-novidades);
+    box-shadow: 12px 10px 10px 0px rgba(0, 0, 0, 0.85) inset;
+    transform: scale(1.0);
+  }
 `;

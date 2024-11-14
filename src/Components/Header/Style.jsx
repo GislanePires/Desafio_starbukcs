@@ -14,10 +14,21 @@ nav{
 }
 
 ul {
-    /* background-color: blue; */
     width: 50%;
     display: flex;
     justify-content: space-around;
+    li {
+        /* background-color: blue; */
+        color: var(--color-text);
+        text-decoration: none;
+        list-style: none;
+
+
+        &:hover {
+            color: var(--color-novidades);
+        }
+
+    }
 }
 
 `;

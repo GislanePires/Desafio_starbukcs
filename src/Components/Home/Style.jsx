@@ -2,13 +2,14 @@ import styled from "styled-components";
 
 export const Home = styled.section`
   display: flex;
-  height: 100vh;
+  height: 90vh;
   position: relative;
   overflow: hidden;
   align-items: center;
 
   h2 {
     font-weight: 400;
+    font-size: 3rem;
   }
 
   span {
@@ -34,18 +35,15 @@ export const ContainerText = styled.section`
     width: 35rem;
     position: relative;
     left: 22rem;
-    top: 5rem;
+    top: 3rem;
     transition: all 0.8s ease;
 
     img {
-        &:hover {
-            cursor: pointer;
-            transform: translateY(-8px) rotate(18deg);
-            
-        }
-
+      &:hover {
+        cursor: pointer;
+        transform: translateY(-8px) rotate(18deg);
+      }
     }
-
   }
 `;
 
@@ -54,17 +52,43 @@ export const ContainerBigCup = styled.section`
 `;
 export const BgCup = styled.div`
   background-color: var(--color-yellow);
-  width: 45rem;
-  height: 45rem;
+  width: 100rem;
+  height: 70rem;
   border-radius: 50%;
   position: absolute;
-  top: 92%;
+  top: 98%;
   right: 0;
   left: 60%;
   transform: translateY(-50%);
 
+
   img {
     position: absolute;
-    top: -16%;
+    top: 3%;
+  }
+`;
+
+export const SocialIcons = styled.div`
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  height: 20%;
+  position: absolute;
+  left: 28rem;
+  bottom: 48rem;
+  align-items: center;
+  justify-content: space-around;
+
+  svg {
+    color: var(--color-bg);
+    font-size: 2.2rem;
+    cursor: pointer;
+    transition: color 0.9s ease;
+
+    &:hover {
+      color: var(--color-text);
+      opacity: 0.5;
+    }
   }
 `;
