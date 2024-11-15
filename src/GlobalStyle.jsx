@@ -22,7 +22,7 @@ export const GlobalStyle = createGlobalStyle`
 body{
     background-color: var(--color-bg);
     color: var(--color-text);
-    margin: 3% 0 0 5%;
+    /* margin: 3% 0 0 5%; */
 }
 
 h1{

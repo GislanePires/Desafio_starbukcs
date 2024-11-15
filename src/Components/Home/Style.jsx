@@ -6,6 +6,7 @@ export const Home = styled.section`
   position: relative;
   overflow: hidden;
   align-items: center;
+  margin: 0 0 0 5%; 
 
   h2 {
     font-weight: 400;
@@ -15,7 +16,7 @@ export const Home = styled.section`
   span {
     font-weight: 700;
     color: var(--color-green);
-    font-size: 3.2rem;
+    font-size: 3.5rem;
   }
   p {
     font-weight: 400;
@@ -26,7 +27,7 @@ export const ContainerText = styled.section`
   display: flex;
   width: 100%;
   flex-direction: column;
-  height: 70vh;
+  height: 80vh;
   justify-content: space-around;
 
   figure {
