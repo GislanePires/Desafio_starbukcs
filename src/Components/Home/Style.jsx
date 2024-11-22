@@ -25,8 +25,8 @@ export const Home = styled.section`
 `;
 export const ContainerText = styled.section`
   display: flex;
-  width: 100%;
   flex-direction: column;
+  width: 100%;
   height: 80vh;
   justify-content: space-around;
 

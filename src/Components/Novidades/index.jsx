@@ -17,7 +17,7 @@ export default function Novidades() {
         <Button />
       </S.NovidadesText>
       <S.Imagem
-        src="Captura de tela 2024-11-10 205921 1.svg"
+        src="https://raw.githubusercontent.com/GislanePires/images-starbucks/6834a637479d57f8b7bc748c2d5fbe81b3805bde/Captura%20de%20tela%202024-11-10%20205921%201.svg"
         alt="Grão de café"
       />
     </S.Novidades>

@@ -8,7 +8,7 @@ import * as S from "./Style.jsx";
 
 export default function Home() {
   const [cup, setCup] = useState({
-    src: "amarelo2x 1.svg",
+    src: "https://raw.githubusercontent.com/GislanePires/images-starbucks/6834a637479d57f8b7bc748c2d5fbe81b3805bde/amarelo2x%201.svg",
     color: "var(--color-yellow)",
   });
 
@@ -34,17 +34,17 @@ export default function Home() {
         <Button />
         <figure>
           <img
-            src="laranja 3.svg"
+            src="https://raw.githubusercontent.com/GislanePires/images-starbucks/6834a637479d57f8b7bc748c2d5fbe81b3805bde/laranja%203.svg"
             alt="Bebida laranja"
             onClick={() => changeCup("laranja2x 1.svg", "var(--color-green)")}
           />
           <img
-            src="vermelho 1.svg"
+            src="https://raw.githubusercontent.com/GislanePires/images-starbucks/6834a637479d57f8b7bc748c2d5fbe81b3805bde/vermelho%201.svg"
             alt="Bebida vermelha"
             onClick={() => changeCup("vermelho2x 1.svg", "var(--color-red)")}
           />
           <img
-            src="amarelo 1.svg"
+            src="https://raw.githubusercontent.com/GislanePires/images-starbucks/6834a637479d57f8b7bc748c2d5fbe81b3805bde/amarelo%201.svg"
             alt="Bebida amarela"
             onClick={() => changeCup("amarelo2x 1.svg", "var(--color-yellow)")}
           />

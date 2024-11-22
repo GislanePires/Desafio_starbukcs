@@ -1,11 +1,10 @@
 import Button from "../Button";
-import loja from "/loja.svg";
 import * as S from "./Style.jsx";
 
 export default function Sobre() {
   return (
     <S.Sobre>
-      <img src={loja} alt="" />
+      <img src="https://raw.githubusercontent.com/GislanePires/images-starbucks/6834a637479d57f8b7bc748c2d5fbe81b3805bde/loja.svg" alt="" />
       <S.ContainerText>
         <article>
           <h2>PREPARAÇÃO</h2>
